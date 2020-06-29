@@ -49,6 +49,8 @@ var result = workersOver1000([
     }]);
 
 console.log(result)
+
+
 /////2-я задача - 2-й вариант////////////////////////////
 function getWorthyWorkers(workers){
     var WorthyWorkers = [];

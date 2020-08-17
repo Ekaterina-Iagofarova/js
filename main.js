@@ -1,4 +1,4 @@
-/////1-я задача///////////////////////// 
+// /////1-я задача///////////////////////// 
 function onlyVowels(str) {
 
     var result = "";
@@ -17,41 +17,41 @@ var vowels = onlyVowels(string);
 console.log(vowels);
 
 
-/////2-я задача////////////////////////////
-function workersOver1000(workers) {
+// // /////2-я задача////////////////////////////
+// // function workersOver1000(workers) {
 
-    var filteredWorkers = []
+// //     var filteredWorkers = []
 
-    for (var i = 0; i < workers.length; i++){
+// //     for (var i = 0; i < workers.length; i++){
 
-        if (workers[i].salary > 1000){
+// //         if (workers[i].salary > 1000){
 
-            filteredWorkers.push(workers[i].name)
-        }
-    }
+// //             filteredWorkers.push(workers[i].name)
+// //         }
+// //     }
 
-    return filteredWorkers
-}
-
-
-var result = workersOver1000([
-    {
-        name: 'Сергей',
-        salary: '500'
-    },
-    {
-        name: 'Дмитрий',
-        salary: '1200'
-    },
-    {
-        name: 'Андрей',
-        salary: '1500'
-    }]);
-
-console.log(result)
+// //     return filteredWorkers
+// // }
 
 
-/////2-я задача - 2-й вариант////////////////////////////
+// // var result = workersOver1000([
+// //     {
+// //         name: 'Сергей',
+// //         salary: '500'
+// //     },
+// //     {
+// //         name: 'Дмитрий',
+// //         salary: '1200'
+// //     },
+// //     {
+// //         name: 'Андрей',
+// //         salary: '1500'
+// //     }]);
+
+// // console.log(result)
+
+
+// /////2-я задача - 2-й вариант////////////////////////////
 function getWorthyWorkers(workers){
     var WorthyWorkers = [];
     for (var i=0; i<workers.length; i++){
@@ -70,7 +70,7 @@ const workers = [
 
 console.log(getWorthyWorkers(workers))
 
-/////3-я задача////////////////////////////
+// /////3-я задача////////////////////////////
 
 function isHtml (url){
     return url.slice(url.length-5) == '.html'
@@ -85,7 +85,7 @@ function isHtml (url){
 const path = "/users/download/index.html"
 console.log(isHtml(path))
 
-/////4-я задача////////////////////////////
+// /////4-я задача////////////////////////////
 
 const isEven = number => {
     if (number % 2 == 0){
